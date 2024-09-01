@@ -1,0 +1,35 @@
+{
+  "name": "belajar-node-npm",
+  "version": "1.0.0",
+  "description": "Belajar Node NPM",
+  "homepage": "https://github.com/vick1208",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vick1208/belajar-npm"
+  },
+  "type": "module",
+  "scripts": {
+    "prestart": "echo 'Before App Run'",
+    "start": "node index.js",
+    "poststart": "echo 'After App Run'",
+    "test": "echo \"Error: no test specified. Sorry\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "pzn",
+    "npm"
+  ],
+  "author": "Vicky",
+  "license": "ISC",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "dependencies": {
+    "belajar-nodejs-npm-library-khannedy": "^1.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
+}
